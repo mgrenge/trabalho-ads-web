@@ -8,7 +8,7 @@
 body {
   color: #414175;
   font-family: "Jost", sans-serif;
-  background-image: url(./trabalho/assets/img/vivid-blurred-colorful-background.jpg);
+  background-image: url(./assets/img/vivid-blurred-colorful-background.jpg);
   background-repeat: no-repeat; /*img não fica se repetindo*/
   background-size: cover; /*cobre todo o fundo*/
   background-attachment: fixed; /*para a imagem não mexer quando rolar a tela*/
