@@ -1,0 +1,89 @@
+/*Fonte importada*/
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500|Jost:400,500,600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #414175;
+  font-family: "Jost", sans-serif;
+  background-image: url(/trabalho/assets/img/vivid-blurred-colorful-background.jpg);
+  background-repeat: no-repeat; /*img não fica se repetindo*/
+  background-size: cover; /*cobre todo o fundo*/
+  background-attachment: fixed; /*para a imagem não mexer quando rolar a tela*/
+  padding: 50px;
+}
+
+.card {
+  width: 40%;
+  margin: auto;
+  position: relative;
+  z-index: 1;
+  border-radius: 10px; /*arredonda borda*/
+  box-shadow: 0 0 0 8px #ffffff33; /*efeito de sombra*/
+  background-color: #ffffff;
+  padding: 30px;
+}
+
+.card-avatar {
+  /*avatar*/
+  width: 200px;
+  margin: auto;
+  display: block;
+}
+
+.card-name {
+  text-align: center;
+}
+
+.subtitle {
+  color: #ee8905;
+  font-size: medium;
+  text-align: justify;
+}
+
+p {
+  font-size: small;
+}
+
+.card-menu {
+  color: #ee8905;
+  display: inline; /*lista fica na mesma linha*/
+  margin: 50px 0 0 0;
+  text-align: center;
+  text-decoration: none; /*tira o sublinhado*/
+  padding: 7px; /*espaçamento entre os links*/
+}
+
+h3 {
+  font-size: medium;
+}
+.inicio {
+  font-size: x-small;
+}
+
+.competencias,
+.idiomas {
+  font-size: small;
+}
+.form {
+  font-size: small;
+  padding: 5px;
+}
+
+#nome,
+#mail,
+#msg,
+#button {
+  display: block; /*cada input em um linha*/
+  margin: 10px 0px;
+  color: #414175;
+}
+.img-portfolio {
+  /*imagens do portfolio*/
+  display: block;
+  width: 90%;
+  padding: 5px;
+}
+//<a href="https://www.freepik.com/free-photo/vivid-blurred-colorful-background_16618863.htm#query=background&position=13&from_view=search&track=sph">Image by user3802032</a> on Freepik
